@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "0dd52d9b-bcfa-47ae-a9d2-aca745000405",
+		"name": "SimpleCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12659559",
+		"_collection_link": "https://hj5555-1638.postman.co/workspace/JAN2025APIWS~404a7ac0-8b5e-4397-87f5-46997eb8ad9c/collection/12659559-0dd52d9b-bcfa-47ae-a9d2-aca745000405?action=share&source=collection_link&creator=12659559"
+	},
+	"item": [
+		{
+			"name": "1-GetAllUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2-GetUserByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users/7772485",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						"7772485"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
